@@ -197,3 +197,40 @@ footer{
    }
 
 }
+/* Estilização do cabeçalho */
+
+header {
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+footer {
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+footer nav {
+    display: flex;
+    gap: 24px;
+}
+
+footer a {
+    color: #666666;
+}
+
+footer a:hover,
+header a:hover {
+    text-decoration: underline;
+}
